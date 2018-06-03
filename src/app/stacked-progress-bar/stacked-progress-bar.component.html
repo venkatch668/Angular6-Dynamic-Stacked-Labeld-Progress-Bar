@@ -1,0 +1,56 @@
+
+
+<div class="infoprogres">
+    <!-- Planned hours label-->
+    <div class="planned-labels">
+        <div class="progress-state ">
+            <div class="ps-msg">
+              <p>Target</p>
+              <p>{{target}} hrs</p>
+            </div>
+          </div>
+    </div>
+    <!-- progress bar -->
+    <div class="progress">
+      <div class="progress-submitted" >
+      <div class="progress-bar progress-bar-approved" [ngStyle]="{'width':infoprogress.label1+'%'}">
+      </div>
+      <div class="progress-bar progress-bar-rejected" [ngStyle]="{'width':infoprogress.label2+'%'}">
+      </div>
+      <div class="progress-bar progress-bar-remaining" [ngStyle]="{'width':infoprogress.label3+'%'}">
+      </div>
+    
+    </div>
+  </div>
+  <!-- progress labels -->
+    <div class="progress-labels">
+        <div class="progress-msg p-label1" [ngStyle]="{'width':infoprogress.label1+'%'}">
+            <div class="progress-state ">
+              <p>Label1</p>
+              <p>{{infoprogress.label1}} hrs</p>
+            </div>
+        </div>
+        <div class="progress-msg p-label2" [ngStyle]="{'width':infoprogress.label2+'%'}">
+            <div class="progress-state">
+              <p>Label2</p>
+              <p>{{infoprogress.label2}} hrs</p>
+            </div>
+        </div>   
+        <div class="progress-msg p-label3" [ngStyle]="{'width':infoprogress.label3+'%'}">
+            <div class="progress-state">
+                <p>Label3</p>
+                <p>{{infoprogress.label3}} hrs</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- progress submmited label-->
+    <div class="progress-submitted-label planned-labels" [ngStyle]="{'width':completed+'%'}">
+      <div class="progress-state ">
+        <div class="ps-msg">
+          <p>Completed</p>
+          <p>{{completed}} hrs</p>
+        </div>
+      </div>
+    </div>
+</div>

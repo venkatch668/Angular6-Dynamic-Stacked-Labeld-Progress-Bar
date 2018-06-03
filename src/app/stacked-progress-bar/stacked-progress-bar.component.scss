@@ -1,0 +1,101 @@
+
+
+.infoprogres{
+    margin:40px auto;
+    .progress{
+        height:20px;
+        border-radius: 0px;
+        margin-bottom: 0px;
+    }
+
+    .progress-bar-approved{
+        background: green;
+    }
+    .progress-bar-remaining{
+        background: blue;
+    }
+    .progress-bar-rejected{
+        background: red;    
+    }
+
+    .progress-submitted{
+        border:1px solid #ccc;
+        float:left;
+        display: block;
+        height: 20px;
+        width:100%;
+        .progress-bar {
+            display: block;
+            float:left;        
+        height: 20px;
+        }
+    }
+
+    .progress-labels{
+        width:100%;
+        float:left;
+    }
+    .progress-msg{
+        position: relative;
+        height: 40px;
+        border-right: 1px solid #ccc;
+        float: left;
+        .progress-state{
+            position: absolute;
+            bottom: -13px;
+            right: 4px;
+            color: #000;
+            text-align: right;
+            font-size: 12px;
+            p{
+                line-height: 13px;
+                margin: 0px;
+            }
+        }
+        &.p-rejected{
+            height: 80px;
+        }
+        &.p-remaining{
+
+        }
+        &.p-approved{
+
+        }
+    }
+
+    .planned-labels{
+        position: relative;
+        .progress-state{
+            margin-bottom: 10px;
+            &:after{
+                height: 1px;
+                width: 100%;
+                background: #ccc;
+                position: absolute;
+                content: '';
+                left: 0px;
+                top: 10px;
+            }
+            border-left:1px solid #ccc;
+            border-right:1px solid #ccc;
+            color: #000;
+            text-align: center;
+            font-size: 12px;
+            .ps-msg{
+                width: 100px;
+                margin: 0 auto;
+                background: white;
+                z-index: 7;
+                position: relative;
+                p{
+                    line-height: 13px;
+                    margin: 0px;
+                }
+            }
+        }
+    }
+    .progress-submitted-label{
+        float:left;
+        margin-top:15px;
+    }
+}
