@@ -9,7 +9,7 @@ https://github.com/venkatch668/Angular6-Dynamic-Stacked-Labeld-Progress-Bar.git
 
 ## Expected output 
 
-![Alt text](https://github.com/venkatch668/Angular6-Dynamic-Stacked-Labeld-Progress-Bar/blob/master/screenshot1.JPG?raw=true  "screenshot")
+![Alt text](https://github.com/venkatch668/Angular6-Dynamic-Stacked-Labeld-Progress-Bar/blob/master/screenshot.JPG?raw=true  "screenshot")
 
 
 
